@@ -1,0 +1,38 @@
+
+#header {
+    
+    background-color: rgb(223, 208, 208);
+    height: 65px; 
+    
+}
+#detail{
+    background-color: bisque;
+    height: 300px;
+
+}
+#footer{
+    background-color: aqua;
+    height: 170px;
+}
+#logo{
+   
+    
+    
+    height: 50px; width: 50px;
+  
+}
+.center{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.center_txt
+{
+    
+ 
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
