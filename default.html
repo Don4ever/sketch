@@ -9,10 +9,17 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Home</title>
     <style>
-        .wtitle{
-            margin-left:55px;
+        .wtitle {
+            margin-left: 55px;
             font-size: 35px;
-            line-height:1.8px;
+            line-height: 1.8px;
+        }
+        .mbtn{
+            margin:0;
+            padding:0;
+        }
+        .mbtn li{
+            display:inline-block;
         }
     </style>
 </head>
@@ -20,10 +27,10 @@
 <body>
     <div class="container" style="width: 960px">
         <div id="header" class="row">
-        <div class="col-md-4">
-            <img src="images/logo.png" id="logo" class="center">
+            <div class="col-md-4">
+                <img src="images/logo.png" id="logo" class="center">
                 <h1 class="wtitle">WireFrameSketcher</h1>
-            
+
             </div>
             <div class="col-md-8">
                 <div class="center_txt" style="text-align: center">
@@ -45,18 +52,16 @@
                 <p>- Build better software</p>
                 <p>- Involve your entire team</p>
                 <div class="row" style="text-align: center">
-                    <div class="col-md-5">
-                        <div class="mini-box">
-                            <button class="btn btn-secondary d_btn">Try it Now</button>
-                        </div>
-                    </div>
-                    <div class="col-md-2">
-                        <div class="mini-box">or</div>
-                    </div>
-                    <div class="col-md-5">
-                        <div class="mini-box">
-                            <button class="btn btn-secondary d_btn">Take a Tour</button>
-                        </div>
+                    <div class="col-md-12">
+                        <ul class="mbtn">
+                            <li>
+                                <button class="btn btn-secondary d_btn">Try it Now</button>
+                            </li>
+                            <li>or</li>
+                            <li>
+                                <button class="btn btn-secondary d_btn">Take a Tour</button>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -64,7 +69,6 @@
                 <img src="images/snap.png" class="center sn_img">
             </div>
         </div>
-
         <div id="footer" class="row">
             <div class="col-md-4">
                 <img src="images/logo.png" class="icon"> Mockup anything
