@@ -36,3 +36,17 @@
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+.d_btn{
+    width: 170px;
+}
+.icon
+{
+    height: 25px;
+    width: 25px;
+}
+.f_img
+.icon
+{
+    height: 180px;
+    width: 250px;
+}
