@@ -1,18 +1,49 @@
 
+html *{
+
+    font-family: 'Times New Roman', Times, serif !important;
+}
 #header {
-    
-    background-color: rgb(223, 208, 208);
+    color: rgb(211, 203, 203);
+    background-color: rgba(11, 9, 43, 0.856);
     height: 65px; 
     
 }
 #detail{
-    background-color: bisque;
+    background-color:rgba(11, 8, 49, 0.192);
+    height: 300px;
+
+}
+#marketing{
+    font-weight: bold;
+    font-size: 16;
+    background-color:rgba(11, 8, 49, 0.192);
     height: 300px;
 
 }
 #footer{
-    background-color: aqua;
+    background-color: rgba(20, 17, 59, 0.74);
     height: 170px;
+    color: rgb(211, 203, 203);
+}
+a:link {
+    text-decoration: none;
+    color: rgb(211, 203, 203);
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(211, 203, 203);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(211, 203, 203);
+}
+
+a:active {
+    text-decoration: underline;
+    color: rgb(211, 203, 203);
 }
 #logo{
    
@@ -54,4 +85,50 @@
 {
     height: 270px;
     width: 460px;
+}
+.wtitle {
+    
+    margin-top:  15px;
+    font-size: 25px;
+    
+    float: right;
+   
+}
+.mbtn{
+    margin-top:25PX;
+    padding:0;
+}
+.mbtn li{
+    display:inline-block;
+}
+.carousel-indicators {
+    bottom:-40px;
+	left:0;
+	width:100%;
+	background:#ccc;
+	padding: 6px 0px;
+	margin-left:0;
+	border-top:2px solid #fff;
+}
+.carousel-indicators li {
+	width:12px;
+	height:12px;	
+	background:#fff;
+	border-color:#fff;
+ 
+}
+.carousel-indicators .active {
+	width:14px;
+	height:14px;
+	background:#428bca;
+	border-color:#428bca;
+}
+.carousel-inner .thumbnail {
+	margin-bottom:0;
+	border-bottom-left-radius:0;
+	border-bottom-right-radius:0;
+}
+.carousel-inner .caption {
+	background:#ddd;
+	padding: 10px;
 }

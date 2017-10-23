@@ -6,25 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <title>Home</title>
-    <style>
-        .wtitle {
-            
-            margin-top:  15px;
-            font-size: 25px;
-            
-            float: right;
-           
-        }
-        .mbtn{
-            margin-top:25PX;
-            padding:0;
-        }
-        .mbtn li{
-            display:inline-block;
-        }
-    </style>
+    <script>
+    $('#myCarousel').carousel({
+    	interval:   4000
+	});
+    </script>
 </head>
 
 <body>
@@ -49,11 +37,11 @@
 
         <div id="detail" class="row">
             <div class="col-md-6">
-                <h4>WireFrame Tools for Professionals</h4>
-                <p>- Create WireFrame in minutes</p>
-                <p>- Get quality feedback fast</p>
-                <p>- Build better software</p>
-                <p>- Involve your entire team</p>
+                <h4 style="margin-top:50px; font-weight: bold; font-family: 'Times New Roman', Times, serif;">WireFrame Tools for Professionals</h4>
+                - Create WireFrame in minutes <br/>
+                - Get quality feedback fast<br/>
+                - Build better software<br/>
+                - Involve your entire team
                 <div class="row" style="text-align: center">
                     <div class="col-md-12">
                         <ul class="mbtn">
@@ -72,6 +60,54 @@
                 <img src="images/snap.png" class="center sn_img">
             </div>
         </div>
+
+        <div id="marketing" class="row">
+            
+            <div class="col-md-6">
+                Tutorials
+                <br/>
+                <video width="400" controls>
+                    <source src="https://www.youtube.com/watch?v=5Fa13RYuDow" type="video/mp4">
+                    <source src="https://www.youtube.com/watch?v=5Fa13RYuDow" type="video/flv">
+                    Your browser does not support HTML5 video.
+                  </video>
+            </div>
+            <div class="col-md-6">
+                <div id="myCarousel" class="carousel slide">        
+                    <div class="carousel-inner">           
+                        <div class="item active"> 
+                            <a href="#"><img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide1"></a>
+                            <div class="caption">
+                                 <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                            </div>
+                        </div>
+                        <div class="item"> 
+                            <a href="#"><img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide2"></a>
+                            <div class="caption">
+                                 <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                            </div>                                                           
+                         </div>  
+                        <div class="item"> 
+                            <a href="#"><img class="thumbnail" src="http://placehold.it/600x400/" alt="Slide3"></a>
+                            <div class="caption">
+                                 <h4>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</h4>
+                                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                            </div>                        
+                        </div>                                                                                   
+                    </div>
+                     <!-- Indicators -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                      </ol>                                                                 
+                </div><!-- End Carousel 
+            </div>
+            
+        </div>
+        
         <div id="footer" class="row">
             <div class="col-md-4">
                 <img src="images/logo.png" class="icon"> Mockup anything
